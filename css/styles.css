@@ -12,18 +12,32 @@
     color: gold;
 }
 
+.navbar-brand:hover{
+    font-weight: bolder;
+    color: goldenrod;
+    font-size:x-large;
+    font-style: oblique;
+}
+
 .nav-link {
     color: gold;
 }
 
 .navbar-nav .nav-link.active {
     color: gold;
-    text-decoration: underline;
+    font-weight: bold;
 }
 
 .nav-link:hover {
-    text-decoration: line-through;
+    border: 2px solid gold;
+    border-radius: 8px;
     color: gold;
+    text-decoration: dashed;
+    transition: all 0.25s ease;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
 }
 
 .container-fluid {
