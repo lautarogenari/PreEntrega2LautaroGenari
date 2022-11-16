@@ -17,6 +17,7 @@
     color: goldenrod;
     font-size:x-large;
     font-style: oblique;
+    transition: all 0.25s ease;
 }
 
 .nav-link {
@@ -87,7 +88,7 @@
     background-color: black;
     color: goldenrod;
     height: 100%;
-    padding: 0;
+    padding: 5px;
 }
 
 .section_subtitle {
@@ -103,8 +104,9 @@
 
 .member-img {
     width: 100%;
-    object-fit: fill;
+    object-fit: fill;    
 }
+
 
 .row {
     margin: 0;
