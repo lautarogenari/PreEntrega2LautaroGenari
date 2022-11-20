@@ -8,27 +8,25 @@
 
 .navbar-brand {
   color: gold; }
-
-.navbar-brand:hover {
-  font-weight: bolder;
-  color: goldenrod;
-  font-size: x-large;
-  font-style: oblique;
-  transition: all 0.25s ease; }
+  .navbar-brand:hover {
+    font-weight: bolder;
+    color: goldenrod;
+    font-size: x-large;
+    font-style: oblique;
+    transition: all 0.25s ease; }
 
 .nav-link {
   color: gold; }
+  .nav-link:hover {
+    border: 2px solid gold;
+    border-radius: 8px;
+    color: gold;
+    text-decoration: dashed;
+    transition: all 0.25s ease; }
 
 .navbar-nav .nav-link.active {
   color: gold;
   font-weight: bold; }
-
-.nav-link:hover {
-  border: 2px solid gold;
-  border-radius: 8px;
-  color: gold;
-  text-decoration: dashed;
-  transition: all 0.25s ease; }
 
 .navbar-toggler:focus {
   box-shadow: none; }
@@ -55,10 +53,9 @@ h2 {
   color: black;
   margin-bottom: 10px;
   margin-top: 10px; }
-
-.btn:hover {
-  background-color: darkgoldenrod;
-  color: black; }
+  .btn:hover {
+    background-color: darkgoldenrod;
+    color: black; }
 
 .container-fluid {
   padding: 0; }
@@ -91,9 +88,8 @@ h2 {
   display: flex;
   margin: 0;
   padding: 0; }
-
-#mainRow3 h2 {
-  margin-top: 8px; }
+  #mainRow3 h2 {
+    margin-top: 8px; }
 
 .firstSection_one {
   background-color: black;
@@ -138,15 +134,14 @@ h2 {
 
 #footer {
   bottom: 0; }
+  #footer .col-6 {
+    display: flex;
+    height: 60px;
+    background-color: #212529;
+    color: gold; }
 
 #customFooter {
   bottom: 0; }
-
-#footer .col-6 {
-  display: flex;
-  height: 60px;
-  background-color: #212529;
-  color: gold; }
 
 #footerRow {
   margin: 0; }

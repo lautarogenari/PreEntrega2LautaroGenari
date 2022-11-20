@@ -35,11 +35,12 @@
     display: flex;
     margin: 0;
     padding: 0;
+
+    h2 {
+        margin-top: 8px;
+    }
 }
 
-#mainRow3 h2 {
-    margin-top: 8px;
-}
 
 .firstSection_one {
     background-color: black;
@@ -63,7 +64,6 @@
     width: 100%;
     object-fit: fill;
 }
-
 
 .row {
     margin: 0;

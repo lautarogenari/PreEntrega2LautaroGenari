@@ -1,16 +1,16 @@
 #footer {
     bottom: 0;
+
+    .col-6 {
+        display: flex;
+        height: 60px;
+        background-color: #212529;
+        color: gold;
+    }
 }
 
 #customFooter {
     bottom: 0;
-}
-
-#footer .col-6 {
-    display: flex;
-    height: 60px;
-    background-color: #212529;
-    color: gold;
 }
 
 #footerRow {

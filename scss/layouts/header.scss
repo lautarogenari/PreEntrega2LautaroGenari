@@ -4,31 +4,31 @@
 
 .navbar-brand {
     color: gold;
-}
 
-.navbar-brand:hover {
-    font-weight: bolder;
-    color: goldenrod;
-    font-size: x-large;
-    font-style: oblique;
-    transition: all 0.25s ease;
+    &:hover {
+        font-weight: bolder;
+        color: goldenrod;
+        font-size: x-large;
+        font-style: oblique;
+        transition: all 0.25s ease;
+    }
 }
 
 .nav-link {
     color: gold;
+
+    &:hover {
+        border: 2px solid gold;
+        border-radius: 8px;
+        color: gold;
+        text-decoration: dashed;
+        transition: all 0.25s ease;
+    }
 }
 
 .navbar-nav .nav-link.active {
     color: gold;
     font-weight: bold;
-}
-
-.nav-link:hover {
-    border: 2px solid gold;
-    border-radius: 8px;
-    color: gold;
-    text-decoration: dashed;
-    transition: all 0.25s ease;
 }
 
 .navbar-toggler:focus {

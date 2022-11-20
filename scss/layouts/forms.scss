@@ -2,8 +2,6 @@
     margin: 15px 0px;
 }
 
-
-
 .form-control:focus {
     border-color: goldenrod;
     box-shadow: 0 0 0 0.25rem goldenrod
@@ -26,9 +24,9 @@ h2 {
     color: black;
     margin-bottom: 10px;
     margin-top: 10px;
-}
 
-.btn:hover {
-    background-color: darkgoldenrod;
-    color: black;
+    &:hover {
+        background-color: darkgoldenrod;
+        color: black;
+    }
 }
