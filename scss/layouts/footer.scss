@@ -1,0 +1,43 @@
+#footer {
+    bottom: 0;
+}
+
+#customFooter {
+    bottom: 0;
+}
+
+#footer .col-6 {
+    display: flex;
+    height: 60px;
+    background-color: #212529;
+    color: gold;
+}
+
+#footerRow {
+    margin: 0;
+}
+
+#reservedRights {
+    justify-content: right;
+    align-items: center;
+}
+
+.footer-social {
+    display: flex;
+    margin: 5px;
+}
+
+.footer-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.reserved-rights {
+    justify-content: right;
+}
+
+.col-6 p {
+    justify-content: right;
+    margin: 0;
+}
