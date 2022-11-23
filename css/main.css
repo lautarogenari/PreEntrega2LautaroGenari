@@ -7,13 +7,11 @@
   position: sticky; }
 
 .navbar-brand {
-  color: gold; }
-  .navbar-brand:hover {
-    font-weight: bolder;
-    color: goldenrod;
-    font-size: x-large;
-    font-style: oblique;
-    transition: all 0.25s ease; }
+  background-image: url(https://www.ironmaiden.com/assets/img/logo.png);
+  background-repeat: no-repeat;
+  width: 288px;
+  height: 60px;
+  margin-left: 15px; }
 
 .nav-link {
   color: gold; }
@@ -23,6 +21,10 @@
     color: gold;
     text-decoration: dashed;
     transition: all 0.25s ease; }
+
+#navbarNav {
+  justify-content: right;
+  margin-right: 10px; }
 
 .navbar-nav .nav-link.active {
   color: gold;
@@ -158,6 +160,8 @@ h2 {
   list-style: none;
   display: flex;
   padding: 0; }
+  .footer-list li {
+    padding: 0px 8px; }
 
 .reserved-rights {
   justify-content: right; }
