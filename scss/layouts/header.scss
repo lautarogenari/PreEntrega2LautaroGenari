@@ -10,13 +10,14 @@
     margin-left: 15px;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     padding: 0%;
 }
 
 .nav-link {
     color: gold;
     text-align: end;
+
     &:hover {
         border: 2px solid gold;
         border-radius: 8px;
@@ -26,19 +27,18 @@
     }
 }
 
-#navbarNav{
+#navbarNav {
     justify-content: right;
     margin-right: 10px;
 }
 
-.navbar-nav{
+.navbar-nav {
     .nav-link.active {
-    color: gold;
-    font-weight: bold;
+        color: gold;
+        font-weight: bold;
     }
 }
 
 .navbar-toggler:focus {
     box-shadow: none;
 }
-
